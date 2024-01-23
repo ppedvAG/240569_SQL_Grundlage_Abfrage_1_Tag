@@ -1,0 +1,1 @@
+# 240569_SQL_Grundlage_Abfrage_1_Tag
