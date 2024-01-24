@@ -3,6 +3,7 @@
 	Datentypen in 3 große Gruppen:
 
 	Charakter/String Datentypen:
+
 	char(10) = 'Hallo     ' = 10 Byte Speicherplatz
 	nchar(10) -> Pro Zeichen jeweils 2 Byte => 20 Byte Speicherplatz
 
@@ -19,7 +20,7 @@
 
 	tinyint = 8 bit bis 255
 	smallint = 16 bit bis zu 32k
-	int = 32 bit bis zu 2,14 Mrd
+	int = 32 bit bis zu 2,14 Mrd => Primary Key
 	bigint = 64 Bit bis zu ...
 
 	(keine boolschen Werte)
@@ -38,6 +39,7 @@
 	datetime = YYYY/MM/DD 00h:00m:00s.000ms
 	datetime2 = bis Nanosekunden
 	smalldatetime = präzise bis Sekunden bereich
+	smalldatetime = YYYY/MM/DD 00h:00m:00s
 
 */
 

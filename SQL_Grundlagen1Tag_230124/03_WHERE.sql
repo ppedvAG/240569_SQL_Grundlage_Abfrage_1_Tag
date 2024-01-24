@@ -8,7 +8,7 @@ SELECT * FROM Customers
 WHERE City = 'Paris'
 
 -- WHERE mehrerer Vergleichsoperatoren prüfen
--- >, >=, <, <=, =, !=
+-- >, >=, <, <=, =, !=, <>
 SELECT * FROM Orders
 WHERE Freight > 100
 ORDER BY Freight --> ORDER BY steht immer am Ende!
@@ -35,7 +35,7 @@ WHERE Freight >= 100 and Freight <= 500
 
 -- BETWEEN gibt eien Reichweite an, Grenzwerte mit inbegriffen
 SELECT * FROM Orders
-WHERE Freight BETWEEN 100 AND 500 AND CustomerID = 'RICSU'
+WHERE Freight BETWEEN 100 AND 500 --AND CustomerID = 'RICSU'
 
 -- Aufgaben:
 -- 1. Alle Bestellungen (Orders) die nach Deutschland gingen
@@ -57,4 +57,4 @@ WHERE Fax != 'NULL'
 
 -- Lösung Nr.2
 SELECT Fax FROM Customers
-WHERE Fax IS NULL
+WHERE Fax IS NOT NULL
